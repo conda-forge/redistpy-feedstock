@@ -1,5 +1,5 @@
 {% set name = "redistpy" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/redistpy-{{ version }}.tar.gz
-  sha256: 70f39933b59f73a8e4915690a415c38b8a431393fdf17d2e4bb3cf2426af5297
+  sha256: 288d9d86b1f1cfb27f8914085920bd9d2819af2fc0c676b791398ce10cf16482
 
 build:
   noarch: python
